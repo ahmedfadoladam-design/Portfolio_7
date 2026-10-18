@@ -1,0 +1,1 @@
+document.getElementById('contactForm').addEventListener('submit',function(e){e.preventDefault();document.getElementById('contactMessage').textContent='تم استلام رسالتك بنجاح، شكرًا لتواصلك معنا.';this.reset();});
